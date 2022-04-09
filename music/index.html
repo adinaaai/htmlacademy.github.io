@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./src/style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="icon"
+		href="https://w7.pngwing.com/pngs/803/536/png-transparent-musical-note-icon-music-angle-white-text-thumbnail.png"
+		type="image/x-icon">
+
+	<script src="./src/script.js"></script>
+	<title>Audio Player</title>
+</head>
+<!-- class="loading" -->
+
+<body>
+
+	<div class="player">
+
+
+		<div class="audio-block">
+
+			<div class="preview">
+
+				<div class="audio">
+
+					<div class="poster">
+						<img src="./audio/img/rampam.jpg" width="276" height="200">
+					</div>
+
+					<audio id="audio" src="./audio/Rampampam.mp3"></audio>
+					<div class="audio-treck">
+						<div class="time"></div>
+					</div>
+
+					<div id="controls">
+
+						<p class="volume">
+							<label for="volume" id="grom">Громкость:</label>
+							<input type="range" id="volume" min="0" max="1" step=".1">
+							<span></span>
+						</p>
+						<button class="play btns fas fa-play" title="Воизпревести"></button>
+						<button class="pause btns far fa-pause-circle" title="Пауза"></button>
+						<button class="prev btns fas fa-angle-double-left" title="Предыдущий"></button>
+						<button class="next btns fas fa-angle-double-right" title="Следующий"></button>
+
+					</div>
+
+				</div>
+
+				<div class="description">
+
+					<div class="ttl">
+						<h1>Название аудио</h1>
+					</div>
+					<div class="audio-desc">
+						текст песни
+					</div>
+
+					<div class="settings">
+						<ul>
+							<li> <i class="far fa-eye"></i> <span>Просмотрено <span class="views"></span></span> </li>
+							<li> <i class="far fa-thumbs-up"></i> <span>Лайки <span class="like"></span></span> </li>
+							<li> <i class="far fa-thumbs-down"></i> <span>Дизлайк <span class="dislike"></span></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+		<div class="audio-list">
+
+			<div class="playList"></div>
+
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
