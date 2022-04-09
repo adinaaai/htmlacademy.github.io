@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*унеерсалные стили  */
+.centr{
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1440px;
+    height: 1594px;
+    background: #222222;
+}
+/* верхняя часть шапки сайта */
+.header{
+    height: 565px;
+}
+.div{
+    height: 500px;
+    background-image: url(IMAGE14.png);
+    background-size: cover;
+}
+
+.topHeader{
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+.innerTop{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 380px; 
+}
+.btn{
+    color: #00D6B4;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn2{
+    color: gray;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.textLogo{
+    color: #fff;
+    font-size: 26px;
+}
+/*центральная часть хидера*/
+.centerHeader{
+    height: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerCenterHeader{
+    height: 159px;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.headerTitle{
+    font-size: 51px;
+    text-align: center;
+}
+.headerText{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.63);
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.viewPost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    border-radius: 3px;
+    width: 137px;
+    height: 40px;
+    border: 1px solid #00D6B4;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.text{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    color: #fff;
+}
+.block{
+    align-items:center;
+    height: 745px;
+    display: flex; 
+    width: 940px;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+}
+.parag{
+    font-size: 18px;
+}
+
+.img{
+    height: 225px;
+    width: 300px;
+    border-radius: 3px;
+
+}
